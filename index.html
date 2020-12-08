@@ -38,6 +38,9 @@
           </ul>
         </ul>
         <ul class="navbar-nav ml-md-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="" data-toggle="modal" data-target="#myModal" tabindex="-1" aria-haspopup="true">Login</a>
+          </li>
             <li class="nav-item dropdown ">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Tugas Proweb
@@ -135,6 +138,48 @@ Saat ini perkembangan teknologi komputer seperti halnya aliran air di sungai yan
       <div class= "card mx-auto bg-dark">
         <p style="text-align: center; color: lightslategrey;">Copyright&copy;2020 Mridhodnick</p>
       </div>
+   !-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Masuk Akun</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+        <form action="login.php" method="POST">
+          <table>
+            <tr> 
+              <td>Username</td>
+              <td><input type="text" name="pengguna" id="pengguna" required></td>
+            </tr>
+     
+            <tr> 
+              <td>Password</td>
+              <td><input type="password" name="sandi" id="sandi" required></td>
+            </tr>
+            <tr>
+              <td>
+                <input style="color: rgb(0, 0, 0);" type="button" name="login" id="login" value="Login">
+              </td>
+            </tr>
+          </table>
+        </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+        Belum punya akun? Daftar <button type="button" class="btn btn-danger" data-dismiss="modal"><a href="https://mridhodnick.github.io/form"></a> <b> disini</b></button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
       
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="mridhodnick"></script>
