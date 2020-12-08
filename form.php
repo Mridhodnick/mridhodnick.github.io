@@ -6,7 +6,7 @@
 	<style>
     @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-*{
+{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
