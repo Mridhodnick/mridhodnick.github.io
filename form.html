@@ -115,6 +115,16 @@ body{
   }
 }
   </style>
+<script>
+    function myFunction() {
+      var x = document.getElementById("sandi");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    }
+</script>
 </head>
 <body>
 	
@@ -127,8 +137,8 @@ body{
     <div class="input-fields">
       <input type="text" class="input" name="pengguna" placeholder="Username" required>
       <input type="email" class="input" name="email" placeholder="Email" required>
-      <input type="password" class="input" name="sandi" placeholder="Password" required>
-      <input type="email" class="input" name="nama" placeholder="Nama" required>
+      <input type="password" class="input" name="sandi" placeholder="Password" required id="sandi"><input type="checkbox" onclick="myFunction()">
+      <input type="text" class="input" name="nama" placeholder="Nama" required>
       <input type="number" class="input" name="hp" placeholder="No HP" required>
       <input type="text" class="input" name="kota" placeholder="Asal Kota" required>
     </div>
