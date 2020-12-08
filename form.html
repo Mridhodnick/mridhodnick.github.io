@@ -14,11 +14,11 @@
   font-family: 'Roboto', sans-serif;
 }
 body{
-  background:url("https://i.gifer.com/1AZy.gif");
-  height:100%;
-  background-size:cover;
-  background-position:center;
-  background-repeat:no-repeat
+  background:url("https://i.gifer.com/1AZy.gif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .wrapper{
   position: absolute;
@@ -101,6 +101,11 @@ body{
   .contact-form{
     flex-direction: column;
   }
+@media screen and (max-width: 1024px) {
+    body {
+     left: 50%;
+     margin-left: -512px;   /* 50% */
+    }
   .msg textarea{
     height: 80px;
   }
