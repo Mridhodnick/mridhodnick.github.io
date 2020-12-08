@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Responsive Contact us form Using HTML and CSS</title>
+	<title>Form Pendaftaran Akun</title>
 	<style>
     @import url('https://fonts.googleapis.com/css?family=Roboto');
 
