@@ -63,6 +63,7 @@ body{
   padding: 10px;
   color: #c5ecfd;
   width: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .msg textarea{
@@ -118,7 +119,7 @@ body{
     <h1>Form Pendaftaran Akun</h1>
   </div>
   <div class="contact-form">
-    <div class="input-fields">
+    <div class="input-fields" action="daftar.php" method="POST">
       <input type="text" class="input" name="pengguna" placeholder="Username" required>
       <input type="email" class="input" name="email" placeholder="Email" required>
       <input type="password" class="input" name="sandi" placeholder="Password" required>
