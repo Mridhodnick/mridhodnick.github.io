@@ -123,8 +123,8 @@ body{
   <a class="brand" href="https://mridhodnick.github.io/" style= "font-size: 25px;" > <img src="https://cdn.pixabay.com/photo/2017/10/05/11/34/finger-2819098_960_720.png" width="40px" alt="ikon"><br> Mridhodnick</a>
     <h1>Registrasi Akun</h1>
   </div>
-  <div class="contact-form">
-    <div class="input-fields" action="daftar.php" method="POST">
+  <form class="contact-form" action="daftar.php" method="POST">
+    <div class="input-fields">
       <input type="text" class="input" name="pengguna" placeholder="Username" required>
       <input type="email" class="input" name="email" placeholder="Email" required>
       <input type="password" class="input" name="sandi" placeholder="Password" required>
@@ -139,7 +139,7 @@ body{
         <input type="reset" onClick="alert('Yakin ingin menghapus data?')" name="reset" id="submit">
       </div>
     </div>
-  </div>
+  </form>
 </div>
 	
 </body>
